@@ -15,6 +15,7 @@ my $sep = '\t';		#symbol differenciating the columns
 my $newfolder = "out3";		#output folder
 my $tag = "_psic";		#something you want to add to all the files processed
 my $keepnames = "YES";	#set to "YES" if you want to keep the names of significant loci, if "NO" it will keep the position on the column instead
+
 use Cwd qw(cwd);
 my $localdir = cwd;
 
