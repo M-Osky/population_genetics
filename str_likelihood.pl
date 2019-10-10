@@ -10,6 +10,11 @@ my $OUTFOLDER="out";		   # output directory for table with the likelihood values
 my $OUTDATA="out/results";	   # directory with the Structure somethingK#_#_f files
 my $outfile = "loglikelihood.txt"; # name for the table file to write
 
+###############################
+
+
+
+
 #Generating file with likelihoods
 
 
