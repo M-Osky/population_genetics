@@ -2,12 +2,13 @@
 use strict;
 use warnings;
 
-##Quick perl script to extract likelihood values from Structure output
+##Quick perl script to extract likelihood values from Structure outputs and write a table with them
 #It is outdated, now we use either a grep one liner or directly faststructure. -M'Ósky-
 
-my $OUTFOLDER="out";
-my $OUTDATA="out/results";
-my $outfile = "loglikelihood.txt";
+# parameters
+my $OUTFOLDER="out";		   # output directory for table with the likelihood values per run
+my $OUTDATA="out/results";	   # directory with the Structure somethingK#_#_f files
+my $outfile = "loglikelihood.txt"; # name for the table file to write
 
 #Generating file with likelihoods
 
