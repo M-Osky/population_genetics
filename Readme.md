@@ -9,4 +9,8 @@ save_signif_loci is a shameful script I did to extract loci with significant pai
 
 bowtie_maker will generate the submission files for bowtie
 
-extractLogtlike will extract the log likelihood from each K ran in Structure
+extractLogtlike: extract the log likelihood from each K ran in Structure (outdated, it was used in an old Structure Unix pipeline)
+
+str_likelihood: extract the row likelihood values from each Structure run to a table (outdated)
+
+
