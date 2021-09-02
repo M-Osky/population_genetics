@@ -3,7 +3,7 @@ Scripts I use frequently to do my job: handle genetic data, perform analysis and
 maker_structure will create multiple Structure submission files for a range of parameters
 Also the file to submit them all
 
-popmap_maker will crate a popmap file that lots of softwares (Stacks, FastStructure..) will ask for. It will consider that the name of your files include the population and the sample name. I recommend to use first fixnumeration.pl if needed
+popmap_maker 
 
 save_signif_loci is a shameful script I did to extract loci with significant pair-wise Fst from the general tsv files (program 'populations' from Stacks)
 
