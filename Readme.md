@@ -7,7 +7,7 @@ Most of these scripts have their own help information that can be called using t
 - str_likelihood: extract the row of likelihood values from each Structure independent run outut to a table (outdated)
 - bowtie_maker will generate the submission files for bowtie (for our cloud computing server)
 
-- popmap_maker it has been moved to another repository
+- popmap_maker it has been moved to M-Osky/handle_edit_files
 
 
 
