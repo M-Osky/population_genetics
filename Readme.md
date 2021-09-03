@@ -1,4 +1,4 @@
-Scripts that can be used to handle data in order to do some genomics or population genetics analysis.
+Auxiliary scripts that can be used to handle data in order to do some genomics or population genetics analysis with other programs.
 This does not include the software for the analysis (such as: FastStructure, Plink, Arlequin, bcftools, vcftools, etc.), just scripts to prepare the data for the analysis or to extract specific results from the output.
 These scripts have their own help information that can be called using the usual flags (-h, --help, etc.).
 
@@ -24,5 +24,6 @@ These scripts have their own help information that can be called using the usual
 - str_likelihood - extract the row of likelihood values from each Structure independent run outut to a table (outdated)
 - popmap_maker - it has been moved to M-Osky/handle_edit_files because its use is not exclusive for population genetics
 - save_signif_loci - is a shameful script I did to extract loci with significant pair-wise Fst from the general tsv files (from program 'populations' from Stacks)
+- coveragen_vcfilter has been moved to M-Osky/VCFiles because it's not an auxiliary script, it does perform analysis by itself
 
 
